@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1FBF2922F70A4750011939D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2912F70A4750011939D /* Models.swift */; };
+		B1FBF2942F70A4EA0011939D /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2932F70A4EA0011939D /* ViewModels.swift */; };
+		B1FBF2962F70A52B0011939D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2952F70A52B0011939D /* ContentView.swift */; };
+		B1FBF2982F70A53F0011939D /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2972F70A53F0011939D /* AuthViews.swift */; };
+		B1FBF29A2F70A54F0011939D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2992F70A54F0011939D /* HomeView.swift */; };
+		B1FBF29C2F70A5660011939D /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF29B2F70A5660011939D /* ShopView.swift */; };
+		B1FBF29E2F70A58A0011939D /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF29D2F70A58A0011939D /* ProductDetailView.swift */; };
+		B1FBF2A02F70A59C0011939D /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF29F2F70A59C0011939D /* CartView.swift */; };
+		B1FBF2A22F70A5AD0011939D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2A12F70A5AD0011939D /* CheckoutView.swift */; };
+		B1FBF2A42F70A5C90011939D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2A32F70A5C90011939D /* ProfileView.swift */; };
+		B1FBF2A62F70A7990011939D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B1FBF2A52F70A7990011939D /* README.md */; };
+		B1FBF2A92F70A8A80011939D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBF2A82F70A8A80011939D /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1FBF2792F70A3040011939D /* MadhoorBoutique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadhoorBoutique.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FBF2912F70A4750011939D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1FBF2932F70A4EA0011939D /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		B1FBF2952F70A52B0011939D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1FBF2972F70A53F0011939D /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		B1FBF2992F70A54F0011939D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1FBF29B2F70A5660011939D /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B1FBF29D2F70A58A0011939D /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		B1FBF29F2F70A59C0011939D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B1FBF2A12F70A5AD0011939D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		B1FBF2A32F70A5C90011939D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B1FBF2A52F70A7990011939D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1FBF2A82F70A8A80011939D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B1FBF27B2F70A3040011939D /* MadhoorBoutique */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MadhoorBoutique;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FBF2762F70A3030011939D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1FBF2702F70A3030011939D = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2A52F70A7990011939D /* README.md */,
+				B1FBF2902F70A3DD0011939D /* Helpers */,
+				B1FBF2892F70A3580011939D /* Views */,
+				B1FBF2882F70A3440011939D /* ViewModels */,
+				B1FBF2872F70A3240011939D /* Models */,
+				B1FBF27A2F70A3040011939D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FBF27A2F70A3040011939D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2792F70A3040011939D /* MadhoorBoutique.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FBF2872F70A3240011939D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2912F70A4750011939D /* Models.swift */,
+				B1FBF27B2F70A3040011939D /* MadhoorBoutique */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1FBF2882F70A3440011939D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2932F70A4EA0011939D /* ViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B1FBF2892F70A3580011939D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2952F70A52B0011939D /* ContentView.swift */,
+				B1FBF28F2F70A3C30011939D /* Profile */,
+				B1FBF28E2F70A3B80011939D /* Checkout */,
+				B1FBF28D2F70A3B20011939D /* Cart */,
+				B1FBF28C2F70A3A70011939D /* Shop */,
+				B1FBF28B2F70A39F0011939D /* Home */,
+				B1FBF28A2F70A38E0011939D /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1FBF28A2F70A38E0011939D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2972F70A53F0011939D /* AuthViews.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B1FBF28B2F70A39F0011939D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2992F70A54F0011939D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1FBF28C2F70A3A70011939D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF29D2F70A58A0011939D /* ProductDetailView.swift */,
+				B1FBF29B2F70A5660011939D /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		B1FBF28D2F70A3B20011939D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF29F2F70A59C0011939D /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B1FBF28E2F70A3B80011939D /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2A12F70A5AD0011939D /* CheckoutView.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		B1FBF28F2F70A3C30011939D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2A32F70A5C90011939D /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B1FBF2902F70A3DD0011939D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBF2A82F70A8A80011939D /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FBF2782F70A3030011939D /* MadhoorBoutique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FBF2842F70A3060011939D /* Build configuration list for PBXNativeTarget "MadhoorBoutique" */;
+			buildPhases = (
+				B1FBF2752F70A3030011939D /* Sources */,
+				B1FBF2762F70A3030011939D /* Frameworks */,
+				B1FBF2772F70A3030011939D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B1FBF27B2F70A3040011939D /* MadhoorBoutique */,
+			);
+			name = MadhoorBoutique;
+			packageProductDependencies = (
+			);
+			productName = MadhoorBoutique;
+			productReference = B1FBF2792F70A3040011939D /* MadhoorBoutique.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FBF2712F70A3030011939D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					B1FBF2782F70A3030011939D = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = B1FBF2742F70A3030011939D /* Build configuration list for PBXProject "MadhoorBoutique" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1FBF2702F70A3030011939D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B1FBF27A2F70A3040011939D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FBF2782F70A3030011939D /* MadhoorBoutique */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FBF2772F70A3030011939D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FBF2A62F70A7990011939D /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FBF2752F70A3030011939D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FBF2A02F70A59C0011939D /* CartView.swift in Sources */,
+				B1FBF2942F70A4EA0011939D /* ViewModels.swift in Sources */,
+				B1FBF2A22F70A5AD0011939D /* CheckoutView.swift in Sources */,
+				B1FBF29E2F70A58A0011939D /* ProductDetailView.swift in Sources */,
+				B1FBF29C2F70A5660011939D /* ShopView.swift in Sources */,
+				B1FBF2982F70A53F0011939D /* AuthViews.swift in Sources */,
+				B1FBF2A92F70A8A80011939D /* Extensions.swift in Sources */,
+				B1FBF29A2F70A54F0011939D /* HomeView.swift in Sources */,
+				B1FBF2962F70A52B0011939D /* ContentView.swift in Sources */,
+				B1FBF2A42F70A5C90011939D /* ProfileView.swift in Sources */,
+				B1FBF2922F70A4750011939D /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1FBF2822F70A3060011939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2C657ZZDJN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1FBF2832F70A3060011939D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2C657ZZDJN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1FBF2852F70A3060011939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C657ZZDJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhoor.boutique.MadhoorBoutique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1FBF2862F70A3060011939D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C657ZZDJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhoor.boutique.MadhoorBoutique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FBF2742F70A3030011939D /* Build configuration list for PBXProject "MadhoorBoutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBF2822F70A3060011939D /* Debug */,
+				B1FBF2832F70A3060011939D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FBF2842F70A3060011939D /* Build configuration list for PBXNativeTarget "MadhoorBoutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBF2852F70A3060011939D /* Debug */,
+				B1FBF2862F70A3060011939D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FBF2712F70A3030011939D /* Project object */;
+}
